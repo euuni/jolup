@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>질병 검색</title>
+    <style>
+        /* 추가적인 CSS 스타일링은 여기에 작성하세요 */
+    </style>
+</head>
+<body>
+    <div class="search-section">
+        <h2>질병 검색</h2>
+        <p>반려동물 증상별 질병 검색</p>
+        <div class="search-box">
+            <div class="pet-box">
+                <input type="radio" id="dog" name="pet" value="dog">
+                <label for="dog">반려견</label>
+            </div>
+            <div class="pet-box">
+                <input type="radio" id="cat" name="pet" value="cat">
+                <label for="cat">반려묘</label>
+            </div>
+        </div>
+        <button id="search-button">검색</button> <!-- 검색 버튼 추가 -->
+    </div>
+
+    <script>
+        document.getElementById("search-button").addEventListener("click", function() {
+            // 선택한 반려동물 종류를 확인
+            var petType = document.querySelector('input[name="pet"]:checked');
+            if (petType) {
+                // 선택한 반려동물 종류에 따라 검색 결과 페이지로 이동
+                var nextPage = "검색결과페이지_" + petType.value + ".html";
+                window.location.href = nextPage;
+            } else {
+                alert("반려동물 종류를 선택해주세요.");
+            }
+        });
+    </script>
+</body>
+</html>
+
+

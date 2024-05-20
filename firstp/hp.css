@@ -1,0 +1,198 @@
+/* 헤더 이미지 102*81*/
+.header-image {
+    width: 102px;
+    height: 81px;
+  }
+/*위에 있는 로그인.회원가입*/
+  .login-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-container a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #F0AB0F;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .login-container a:hover {
+    background-color: #F0AB0F;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /*이메일거부거기*/
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin-right: 20px;
+  }
+  
+  .footer-content a {
+    text-decoration: none;
+    color: #563008;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .pipe {
+    display: inline-block; /* Allow inline display */
+    vertical-align: middle; /* Vertically align with text */
+    margin: 0 5px; /* Add horizontal margin */
+    color: #563008; /* Set pipe color */
+  }
+  /*홈페이지 이미지 강아지*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #563008;
+    color: #F0AB0F;
+  }
+  .hero h1{
+    text-align: center;
+    left: 153;
+    top: 268;
+    font-size: 64;
+    font-family: 'Inter';
+    font-weight: 0;
+  }
+  .clover{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .clover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: path(M50 15 Q25 25 15 50 Q25 75 50 85 Q75 75 85 50 Q75 25 50 15 M50 50 Q25 25 15 50 Q25 75 50 85 Q75 75 85 50 Q75 25 50 50 Z);
+  }
+  /*밑에 섹션들*/
+  .main-content {
+    display: flex;
+    /* justify-content: center; */
+    padding: 40px 20px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .info-section{
+    background-color: #563008;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    flex: 1;
+    text-align: center;
+    width: 200px;
+  }
+  .icon{
+    background-color: #F0AB0F;
+    color: #F0AB0F;
+    padding: 20px;
+    border-radius: 20px;
+    flex: 1;
+    text-align: center;
+    width: 200px;
+  }
+  .info-section{
+    border-top-right-radius: 0;
+  }
+  .icon{
+    border-top-left-radius: 0;
+  }
+  .info-section p, .icon p{
+    margin: 10px 0 0 0;
+    font-size: 1.2rem;
+  }
+  .search-section{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #563008;
+    color: white;
+  }
+  .sns-section{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    color: turquoise;
+  }
+
+  .sns-section li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    list-style-type: disc;
+    color: black;
+  }
+  .sns-title img{
+    width: 52px;
+    height: 50px;
+  }
+  .search-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .search-box, .pet-box{
+    background-color: white;
+    color: yellowgreen;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    max-width: 200px;
+  }
+  .promo-section{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #F0AB0F;
+    color: white;
+  }
+
+  .promo-section img {
+    width: 100px;
+    margin: 10px;
+  }
+  .info-section img, .icon img{
+    width: 50px;
+    height: 48px;
+  }
+  /*이게 뭔지 모르갰지만 일단 써봄*/
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  .button{
+    display: inline-block;
+    padding: 10px 20px;
+  }
